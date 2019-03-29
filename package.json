@@ -1,0 +1,31 @@
+{
+  "name": "endofnigthmare",
+  "version": "1.0.0",
+  "description": "a game for fun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yoshino-s/EndOfNightmare.git"
+  },
+  "keywords": [
+    "game",
+    "nodejs",
+    "phaser-ce"
+  ],
+  "author": "Yoshino-s",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yoshino-s/EndOfNightmare/issues"
+  },
+  "homepage": "https://github.com/Yoshino-s/EndOfNightmare#readme",
+  "devDependencies": {
+    "eslint": "^5.15.3"
+  },
+  "dependencies": {
+    "alameda": "^1.3.0",
+    "phaser-ce": "^2.12.0"
+  }
+}
