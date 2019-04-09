@@ -4,7 +4,10 @@
   "description": "a game for fun",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -23,6 +26,7 @@
   "homepage": "https://github.com/Yoshino-s/EndOfNightmare#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^2.0.1",
+    "eruda": "^1.5.4",
     "eslint": "^5.15.3",
     "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.29.6",
