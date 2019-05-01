@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "jsdoc -c ./scripts/jsdoc.conf.json",
+    "lint": "eslint ./src --fix",
     "build": "webpack",
     "watch": "webpack --watch",
     "start": "webpack-dev-server --open"
@@ -30,12 +32,17 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",
     "html-webpack-plugin": "^3.2.0",
+    "jsdoc": "^3.5.5",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.3.0"
   },
   "dependencies": {
+    "@pixi/jsdoc-template": "^2.4.2",
+    "eruda": "^1.5.4",
+    "loglevel": "^1.6.1",
+    "lz-string": "^1.4.4",
     "pixi.js": "^4.8.7",
-    "eruda": "^1.5.4"
+    "resource-loader": "^2.2.4"
   }
 }
